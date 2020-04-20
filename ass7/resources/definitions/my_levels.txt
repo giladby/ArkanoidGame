@@ -1,0 +1,125 @@
+
+# Level 1
+# Flash
+
+START_LEVEL
+level_name:Flash
+ball_velocities:45,8 -45,8 -30,8 30,8
+background:image(background_images/flash.jpeg)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/flash.txt
+blocks_start_x:25
+blocks_start_y:100
+row_height:25
+num_blocks:69
+START_BLOCKS
+
+---------l----
+----****l**---
+---*###l###*--
+--*#wwlwwww#*-
+-*#wwlllllww#*
+--*#wwwwlww#*-
+---*###l###*--
+----**l****---
+-----l--------
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Super Mario
+
+START_LEVEL
+level_name: Super Mario
+ball_velocities:60,8 345,8
+background:image(background_images/mario.jpg)
+paddle_speed:8
+paddle_width:250
+block_definitions:definitions/mario.txt
+blocks_start_x:50
+blocks_start_y:100
+row_height:25
+num_blocks:74
+START_BLOCKS
+
+sss********sss
+ss*-m----m-*ss
+s*--mm--mm--*s
+*---m-mm-m---*
+s*--m----m--*s
+ss*-m----m-*ss
+sss********sss
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Superman
+
+
+START_LEVEL
+level_name:Superman
+ball_velocities:60,8 345,8 30,8 315,8 15,8 330,8 45,8 60,8
+background:image(background_images/superman.jpeg)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/superman.txt
+blocks_start_x:70
+blocks_start_y:100
+row_height:25
+num_blocks:120
+START_BLOCKS
+
+
+***************
+b*sssssssssss*b
+bb*sssssssss*bb
+bbb*sssssss*bbb
+bbbb*sssss*bbbb
+bbbbb*sss*bbbbb
+bbbbbb*s*bbbbbb
+bbbbbbb*bbbbbbb
+
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 4
+# Batman
+
+START_LEVEL
+level_name:Batman
+ball_velocities:60,8 345,8 30,8 315,8 15,8 330,8 45,8 60,8
+background:image(background_images/batman.jpeg)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/batman.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:25
+num_blocks:203
+START_BLOCKS
+
+sssssssss*******sssssssss
+ssssssss*-------*ssssssss
+sssssss*---------*sssssss
+ssssss*-m-------m-*ssssss
+sssss*-mm-------mm-*sssss
+ssss*--mm-m---m-mm--*ssss
+sss*--mmm-m---m-mmm--*sss
+ss*---mmmmmmmmmmmmm---*ss
+sss*--mmm---m---mmm--*sss
+ssss*--mm---m---mm--*ssss
+sssss*-mm-------mm-*sssss
+ssssss*-m-------m-*ssssss
+sssssss*---------*sssssss
+ssssssss*-------*ssssssss
+sssssssss*******sssssssss
+
+END_BLOCKS
+END_LEVEL

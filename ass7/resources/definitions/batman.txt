@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:30 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:m fill:color(yellow)
+bdef symbol:* fill:color(RGB(186,187,190))
+bdef symbol:- fill:image(block_images/batman.jpeg)
+
+# spacers definitions
+sdef symbol:s width:30

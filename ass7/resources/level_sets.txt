@@ -1,0 +1,6 @@
+e:Easy
+definitions/easy_level_definitions.txt
+h:Hard
+definitions/hard_level_definitions.txt
+g:gilad's set
+definitions/my_levels.txt

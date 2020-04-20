@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:44 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:* fill:color(red)
+bdef symbol:b fill:color(yellow)
+bdef symbol:s fill:image(block_images/superman.png)
+
+# spacers definitions
+sdef symbol:- width:18
